@@ -333,7 +333,32 @@
 
 /* small mobile :280px. */
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+    .header-top-menu {
+        display: none;
+    }
+    .consen-nav-menu {
+        display: none;
+    }
+    .slider-shape {
+        display: none;
+    }
 
+    .slider-area.slider2 {
+        background: #141323;
+        height: 500px;
+    }
+
+    .service-shape-thumb {
+        display: none;
+    }
+
+    .choose-us-shape {
+        display: none;
+    }
+
+    .testi-counter {
+        text-align: center;
+    }
 
 }
 
